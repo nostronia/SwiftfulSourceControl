@@ -14,11 +14,12 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
             Text("Swiftful Thinking!")
+            Text("Swiftful!")
             
             Button("Click Me!") { 
                 
             }
-            .background(Color.red)
+            .background(Color.green)
         }
         .padding()
     }
